@@ -1,0 +1,51 @@
+body{
+    direction:rtl;
+    text-align:right;
+}
+.pull-right {
+    float: left;
+}
+.ml-auto, .mx-auto {
+    margin-left:unset !important;
+    margin-right: auto!important;
+}
+.navbar-brand{
+    margin-right:unset;
+    margin-left:1rem;
+}
+.topbar .info .info-item .fa {
+    margin-right:unset;
+    margin-left: 7px;
+}
+.top-header-title{
+    transform:translate(-20px,0px);
+}
+.contentCircle{
+    transform:translate(-150%, -50%);
+}
+.footer .footer-item .recent-post li .date i {
+    margin-right:unset;
+    margin-left: 5px;
+}
+.info-icon span{
+    margin-left:10px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    padding-left: 0.5rem;
+}
+.text-left {
+    text-align: right !important;
+}
+.rs-accordion .card .btn, .rs-accordion .card .btn-primary, .rs-accordion .card .btn-secondary, .rs-accordion .card .btn-light, .rs-accordion .card .btn-ghost-light{
+    text-align:right;
+}
+.rs-accordion .title .btn:before, .rs-accordion .title .btn-primary:before, .rs-accordion .title .btn-secondary:before, .rs-accordion .title .btn-light:before, .rs-accordion .title .btn-ghost-light:before{
+    right:unset;
+    left:20px;
+}
+@media (min-width:992px){
+    .offset-lg-2 {
+    margin-right: 16.666667%;
+}
+}

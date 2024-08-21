@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,700");
+/* -------------------- 
+TOPBAR SETTING
+-----------------------*/
+/* -------------------- 
+NAVBAR SETTING
+-----------------------*/
+/* -------------------- 
+FOOTER SETTING
+-----------------------*/
+/* -------------------- 
+BUTTON SETTING
+-----------------------*/
+.bolder {
+  font-weight: 600; }
+
+.cfix {
+  content: '';
+  display: block;
+  width: 100%;
+  clear: both; }
+
+/*# sourceMappingURL=variable.css.map */
